@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="366.32" tests="6" errors="0" skipped="0" failures="1" flakes="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="C:\Users\Lenovo\eclipse-workspace\Amazon\target\test-classes;C:\Users\Lenovo\eclipse-workspace\Amazon\target\classes;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-java\4.43.0\selenium-java-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-api\4.43.0\selenium-api-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.43.0\selenium-chrome-driver-4.43.0.jar;C:\Users\Lenovo\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.43.0\selenium-chromium-driver-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-json\4.43.0\selenium-json-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.43.0\selenium-manager-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.43.0\selenium-devtools-v145-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v146\4.43.0\selenium-devtools-v146-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v147\4.43.0\selenium-devtools-v147-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.43.0\selenium-edge-driver-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.43.0\selenium-firefox-driver-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-http\4.43.0\selenium-http-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.43.0\selenium-ie-driver-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.43.0\selenium-remote-driver-4.43.0.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Lenovo\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\Lenovo\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-api\1.60.1\opentelemetry-api-1.60.1.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-context\1.60.1\opentelemetry-context-1.60.1.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-common\1.60.1\opentelemetry-common-1.60.1.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.60.1\opentelemetry-exporter-logging-1.60.1.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.60.1\opentelemetry-sdk-common-1.60.1.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.60.1\opentelemetry-sdk-extension-autoconfigure-spi-1.60.1.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.60.1\opentelemetry-sdk-extension-autoconfigure-1.60.1.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.60.1\opentelemetry-sdk-trace-1.60.1.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.60.1\opentelemetry-sdk-1.60.1.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.60.1\opentelemetry-sdk-metrics-1.60.1.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.60.1\opentelemetry-sdk-logs-1.60.1.jar;C:\Users\Lenovo\.m2\repository\net\bytebuddy\byte-buddy\1.18.8-jdk5\byte-buddy-1.18.8-jdk5.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-os\4.43.0\selenium-os-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.43.0\selenium-safari-driver-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-support\4.43.0\selenium-support-4.43.0.jar;C:\Users\Lenovo\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Lenovo\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Lenovo\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Lenovo\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Lenovo\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Lenovo\.m2\repository\RestAssuredApiAutomation\RestAssuredApiAutomation\0.0.1-SNAPSHOT\RestAssuredApiAutomation-0.0.1-SNAPSHOT.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\Lenovo\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\Lenovo\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Lenovo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Lenovo\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Lenovo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\Lenovo\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Lenovo\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Lenovo\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Lenovo\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.5\jackson-databind-2.9.5.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.5\jackson-core-2.9.5.jar;C:\Users\Lenovo\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Lenovo\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Lenovo\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Lenovo\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Lenovo\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Lenovo\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Lenovo\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Lenovo\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi\5.1.0\poi-5.1.0.jar;C:\Users\Lenovo\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Lenovo\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi-ooxml\5.1.0\poi-ooxml-5.1.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi-ooxml-lite\5.1.0\poi-ooxml-lite-5.1.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.2\xmlbeans-5.0.2.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Lenovo\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Lenovo\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.35.2\allure-cucumber7-jvm-2.35.2.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-java-commons\2.35.2\allure-java-commons-2.35.2.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-model\2.35.2\allure-model-2.35.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire9744725824259386360\surefirebooter-20260617182711704_3.jar C:\Users\Lenovo\AppData\Local\Temp\surefire9744725824259386360 2026-06-17T18-27-11_470-jvmRun1 surefire-20260617182711704_1tmp surefire_0-20260617182711704_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Lenovo\eclipse-workspace\Amazon\target\test-classes;C:\Users\Lenovo\eclipse-workspace\Amazon\target\classes;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-java\4.43.0\selenium-java-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-api\4.43.0\selenium-api-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.43.0\selenium-chrome-driver-4.43.0.jar;C:\Users\Lenovo\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.43.0\selenium-chromium-driver-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-json\4.43.0\selenium-json-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.43.0\selenium-manager-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.43.0\selenium-devtools-v145-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v146\4.43.0\selenium-devtools-v146-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v147\4.43.0\selenium-devtools-v147-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.43.0\selenium-edge-driver-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.43.0\selenium-firefox-driver-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-http\4.43.0\selenium-http-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.43.0\selenium-ie-driver-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.43.0\selenium-remote-driver-4.43.0.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Lenovo\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\Lenovo\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-api\1.60.1\opentelemetry-api-1.60.1.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-context\1.60.1\opentelemetry-context-1.60.1.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-common\1.60.1\opentelemetry-common-1.60.1.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.60.1\opentelemetry-exporter-logging-1.60.1.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.60.1\opentelemetry-sdk-common-1.60.1.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.60.1\opentelemetry-sdk-extension-autoconfigure-spi-1.60.1.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.60.1\opentelemetry-sdk-extension-autoconfigure-1.60.1.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.60.1\opentelemetry-sdk-trace-1.60.1.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.60.1\opentelemetry-sdk-1.60.1.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.60.1\opentelemetry-sdk-metrics-1.60.1.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.60.1\opentelemetry-sdk-logs-1.60.1.jar;C:\Users\Lenovo\.m2\repository\net\bytebuddy\byte-buddy\1.18.8-jdk5\byte-buddy-1.18.8-jdk5.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-os\4.43.0\selenium-os-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.43.0\selenium-safari-driver-4.43.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-support\4.43.0\selenium-support-4.43.0.jar;C:\Users\Lenovo\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Lenovo\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Lenovo\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Lenovo\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Lenovo\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Lenovo\.m2\repository\RestAssuredApiAutomation\RestAssuredApiAutomation\0.0.1-SNAPSHOT\RestAssuredApiAutomation-0.0.1-SNAPSHOT.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\Lenovo\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\Lenovo\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Lenovo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Lenovo\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Lenovo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\Lenovo\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Lenovo\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Lenovo\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Lenovo\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.5\jackson-databind-2.9.5.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.5\jackson-core-2.9.5.jar;C:\Users\Lenovo\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Lenovo\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Lenovo\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Lenovo\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Lenovo\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Lenovo\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Lenovo\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Lenovo\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi\5.1.0\poi-5.1.0.jar;C:\Users\Lenovo\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Lenovo\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi-ooxml\5.1.0\poi-ooxml-5.1.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi-ooxml-lite\5.1.0\poi-ooxml-lite-5.1.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.2\xmlbeans-5.0.2.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Lenovo\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Lenovo\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.35.2\allure-cucumber7-jvm-2.35.2.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-java-commons\2.35.2\allure-java-commons-2.35.2.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-model\2.35.2\allure-model-2.35.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Lenovo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Lenovo\eclipse-workspace\Amazon"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="org.omg.PortableInterceptor.ORBInitializerClass.org.omg.PortableInterceptor.RuxitOrbInitializer" value=""/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire9744725824259386360\surefirebooter-20260617182711704_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
+    <property name="user.name" value="Lenovo"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Lenovo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Lenovo\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="C:\Users\Lenovo\eclipse-workspace\Amazon"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-25\bin;C:\Program Files\apache-maven-3.9.15\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-jmeter-5.6.3\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;User must be able to add the selected product to the cart using Add Cart button.&quot;, &quot;User must be able to add the selected product to the cart&quot;](1)" classname="runners.TestRunner" time="56.557">
+    <failure message="Expected condition failed: waiting for visibility of all 0 elements, but no elements were found&#10;(tried for 20 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.54, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65492}, goog:processID: 21300, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65492/devtoo..., se:cdpVersion: 149.0.7827.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a9fa3a03746fb4a0b6b24442f7d034a5" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of all 0 elements, but no elements were found
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.54, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65492}, goog:processID: 21300, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65492/devtoo..., se:cdpVersion: 149.0.7827.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a9fa3a03746fb4a0b6b24442f7d034a5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at Pages.AddCart.clickAddCart(AddCart.java:107)
+	at stepDefinitions.AddCartSteps.AddCart(AddCartSteps.java:37)
+	at ✽.User click on Add to cart button of the product titled "Pyjamas Set".(file:///C:/Users/Lenovo/eclipse-workspace/Amazon/src/test/resources/features/AddCart.feature:12)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: User must be able to add the selected product to the cart using Add Cart button. # src/test/resources/features/AddCart.feature:19
+  Given User is On Amazon login page.                                                      # stepDefinitions.LoginSteps.UseronLoginpage()
+  When user enters a valid user email and pwd.                                             # stepDefinitions.LoginSteps.validemail()
+  Then click on login button.                                                              # stepDefinitions.LoginSteps.clkLogin()
+  And User is On Amazon home after succesful login.                                        # stepDefinitions.HomePageSteps.homePage()
+  When User search for product "babyboy".                                                  # stepDefinitions.AddCartSteps.searchProduct(java.lang.String)
+Search box value =babyboy
+  Then User selects the "babyboy dress 2-3 years" appears from the dropdown list.          # stepDefinitions.AddCartSteps.chooseProduct(java.lang.String)
+  Then User redirected to results screen.                                                  # stepDefinitions.AddCartSteps.ResultScreen()
+[]
+  And User click on Add to cart button of the product titled "Pyjamas Set".                # stepDefinitions.AddCartSteps.AddCart(java.lang.String)
+      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all 0 elements, but no elements were found
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.54, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65492}, goog:processID: 21300, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65492/devtoo..., se:cdpVersion: 149.0.7827.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a9fa3a03746fb4a0b6b24442f7d034a5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at Pages.AddCart.clickAddCart(AddCart.java:107)
+	at stepDefinitions.AddCartSteps.AddCart(AddCartSteps.java:37)
+	at ✽.User click on Add to cart button of the product titled "Pyjamas Set".(file:///C:/Users/Lenovo/eclipse-workspace/Amazon/src/test/resources/features/AddCart.feature:12)
+
+  Then examine the cart.                                                                   # stepDefinitions.AddCartSteps.CInfo()
+  And delete all added products.                                                           # stepDefinitions.AddCartSteps.cDelete()
+  And capture the Screenshot                                                               # stepDefinitions.Screenshot.takeScreenshot()
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jun 17, 2026 6:27:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User must be able to add the selected product to the cart using Add Cart button.&quot;, &quot;User must be able to add the selected product to the cart&quot;](2)" classname="runners.TestRunner" time="72.511">
+    <system-out><![CDATA[
+Scenario: User must be able to add the selected product to the cart using Add Cart button. # src/test/resources/features/AddCart.feature:20
+  Given User is On Amazon login page.                                                      # stepDefinitions.LoginSteps.UseronLoginpage()
+  When user enters a valid user email and pwd.                                             # stepDefinitions.LoginSteps.validemail()
+  Then click on login button.                                                              # stepDefinitions.LoginSteps.clkLogin()
+  And User is On Amazon home after succesful login.                                        # stepDefinitions.HomePageSteps.homePage()
+  When User search for product "babyboy".                                                  # stepDefinitions.AddCartSteps.searchProduct(java.lang.String)
+Search box value =babyboy
+  Then User selects the "babyboy dress 2-3 years" appears from the dropdown list.          # stepDefinitions.AddCartSteps.chooseProduct(java.lang.String)
+  Then User redirected to results screen.                                                  # stepDefinitions.AddCartSteps.ResultScreen()
+[[[ChromeDriver: chrome on windows (e5b4f811562a860f528a74bfd2e3712b)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Kuchipoo')]]], [[ChromeDriver: chrome on windows (e5b4f811562a860f528a74bfd2e3712b)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Kuchipoo')]]], [[ChromeDriver: chrome on windows (e5b4f811562a860f528a74bfd2e3712b)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Kuchipoo')]]], [[ChromeDriver: chrome on windows (e5b4f811562a860f528a74bfd2e3712b)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Kuchipoo')]]], [[ChromeDriver: chrome on windows (e5b4f811562a860f528a74bfd2e3712b)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Kuchipoo')]]], [[ChromeDriver: chrome on windows (e5b4f811562a860f528a74bfd2e3712b)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Kuchipoo')]]], [[ChromeDriver: chrome on windows (e5b4f811562a860f528a74bfd2e3712b)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Kuchipoo')]]], [[ChromeDriver: chrome on windows (e5b4f811562a860f528a74bfd2e3712b)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Kuchipoo')]]]]
+Products size:8
+Product detailsPreviously viewed
+Kuchipoo
+Kids Regular Fit Cotton T-Shirts and Pyjamas Set
+4.2
+(151)
+Limited time deal
+₹597
+₹1,899 (69% off)
+FREE delivery Tue, 23 Jun
+See options
+Parent window ID44B3520FB43CDAF5133E0D5C87A1CFBC
+Product detailsPreviously viewed
+Kuchipoo
+Kids Regular Fit Cotton T-Shirts and Pyjamas Set
+3.5
+(15)
+Limited time deal
+₹597
+₹1,899 (69% off)
+FREE delivery Tue, 23 Jun
+See options
+Parent window ID44B3520FB43CDAF5133E0D5C87A1CFBC
+  And User click on Add to cart button of the product titled "Kuchipoo".                   # stepDefinitions.AddCartSteps.AddCart(java.lang.String)
+Cart count: 0
+  Then examine the cart.                                                                   # stepDefinitions.AddCartSteps.CInfo()
+0
+  And delete all added products.                                                           # stepDefinitions.AddCartSteps.cDelete()
+  And capture the Screenshot                                                               # stepDefinitions.Screenshot.takeScreenshot()
+]]></system-out>
+    <system-err><![CDATA[Jun 17, 2026 6:28:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User must be able to add the selected product to the cart using Add Cart button.&quot;, &quot;User must be able to add the selected product to the cart&quot;](3)" classname="runners.TestRunner" time="78.678">
+    <system-out><![CDATA[
+Scenario: User must be able to add the selected product to the cart using Add Cart button. # src/test/resources/features/AddCart.feature:21
+  Given User is On Amazon login page.                                                      # stepDefinitions.LoginSteps.UseronLoginpage()
+  When user enters a valid user email and pwd.                                             # stepDefinitions.LoginSteps.validemail()
+  Then click on login button.                                                              # stepDefinitions.LoginSteps.clkLogin()
+  And User is On Amazon home after succesful login.                                        # stepDefinitions.HomePageSteps.homePage()
+  When User search for product "soap".                                                     # stepDefinitions.AddCartSteps.searchProduct(java.lang.String)
+Search box value =soap
+  Then User selects the "soap mould" appears from the dropdown list.                       # stepDefinitions.AddCartSteps.chooseProduct(java.lang.String)
+  Then User redirected to results screen.                                                  # stepDefinitions.AddCartSteps.ResultScreen()
+[[[ChromeDriver: chrome on windows (7072c5cf12944c9eceac1ed332d74341)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Silicone Mould')]]], [[ChromeDriver: chrome on windows (7072c5cf12944c9eceac1ed332d74341)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Silicone Mould')]]], [[ChromeDriver: chrome on windows (7072c5cf12944c9eceac1ed332d74341)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Silicone Mould')]]], [[ChromeDriver: chrome on windows (7072c5cf12944c9eceac1ed332d74341)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Silicone Mould')]]], [[ChromeDriver: chrome on windows (7072c5cf12944c9eceac1ed332d74341)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Silicone Mould')]]], [[ChromeDriver: chrome on windows (7072c5cf12944c9eceac1ed332d74341)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Silicone Mould')]]], [[ChromeDriver: chrome on windows (7072c5cf12944c9eceac1ed332d74341)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Silicone Mould')]]], [[ChromeDriver: chrome on windows (7072c5cf12944c9eceac1ed332d74341)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Silicone Mould')]]], [[ChromeDriver: chrome on windows (7072c5cf12944c9eceac1ed332d74341)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Silicone Mould')]]], [[ChromeDriver: chrome on windows (7072c5cf12944c9eceac1ed332d74341)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Silicone Mould')]]], [[ChromeDriver: chrome on windows (7072c5cf12944c9eceac1ed332d74341)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Silicone Mould')]]]]
+Products size:11
+Product detailsPreviously viewed
+Redsky 20gm Approx 25 Cavities Food Grade Soap Silicone Molds Rectangle Soap Mold Handmade Reusable Silicone Moulds Pink Cake Tools Moule Silicone
+4.0
+(2)
+₹275
+M.R.P:
+₹699 (61% off)
+FREE delivery Wed, 24 Jun
+Add to cart
+Parent window ID572B134579385C96E98235C53236BE47
+Product detailsPreviously viewed
+12-Cavity Silicone Mould for Soap Making, Loaf, Muffins - Pack of 1, Red
+3.9
+(42)
+50+ bought in past month
+₹189
+M.R.P:
+₹599 (68% off)
+FREE delivery Wed, 24 Jun
+Add to cart
+Parent window ID572B134579385C96E98235C53236BE47
+  And User click on Add to cart button of the product titled "Silicone Mould".             # stepDefinitions.AddCartSteps.AddCart(java.lang.String)
+Cart count: 0
+  Then examine the cart.                                                                   # stepDefinitions.AddCartSteps.CInfo()
+0
+  And delete all added products.                                                           # stepDefinitions.AddCartSteps.cDelete()
+  And capture the Screenshot                                                               # stepDefinitions.Screenshot.takeScreenshot()
+]]></system-out>
+    <system-err><![CDATA[Jun 17, 2026 6:29:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User must be able to add the selected product to the cart using Add Cart button.&quot;, &quot;User must be able to add the selected product to the cart&quot;](4)" classname="runners.TestRunner" time="97.546">
+    <system-out><![CDATA[
+Scenario: User must be able to add the selected product to the cart using Add Cart button. # src/test/resources/features/AddCart.feature:22
+  Given User is On Amazon login page.                                                      # stepDefinitions.LoginSteps.UseronLoginpage()
+  When user enters a valid user email and pwd.                                             # stepDefinitions.LoginSteps.validemail()
+  Then click on login button.                                                              # stepDefinitions.LoginSteps.clkLogin()
+  And User is On Amazon home after succesful login.                                        # stepDefinitions.HomePageSteps.homePage()
+  When User search for product "soap".                                                     # stepDefinitions.AddCartSteps.searchProduct(java.lang.String)
+Search box value =soap
+  Then User selects the "soap mould" appears from the dropdown list.                       # stepDefinitions.AddCartSteps.chooseProduct(java.lang.String)
+  Then User redirected to results screen.                                                  # stepDefinitions.AddCartSteps.ResultScreen()
+[[[ChromeDriver: chrome on windows (c2756ea4869e6f873e4544bfd0ff3471)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Soap Base')]]], [[ChromeDriver: chrome on windows (c2756ea4869e6f873e4544bfd0ff3471)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Soap Base')]]], [[ChromeDriver: chrome on windows (c2756ea4869e6f873e4544bfd0ff3471)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Soap Base')]]], [[ChromeDriver: chrome on windows (c2756ea4869e6f873e4544bfd0ff3471)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Soap Base')]]], [[ChromeDriver: chrome on windows (c2756ea4869e6f873e4544bfd0ff3471)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Soap Base')]]], [[ChromeDriver: chrome on windows (c2756ea4869e6f873e4544bfd0ff3471)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Soap Base')]]], [[ChromeDriver: chrome on windows (c2756ea4869e6f873e4544bfd0ff3471)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Soap Base')]]], [[ChromeDriver: chrome on windows (c2756ea4869e6f873e4544bfd0ff3471)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Soap Base')]]], [[ChromeDriver: chrome on windows (c2756ea4869e6f873e4544bfd0ff3471)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Soap Base')]]], [[ChromeDriver: chrome on windows (c2756ea4869e6f873e4544bfd0ff3471)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Soap Base')]]], [[ChromeDriver: chrome on windows (c2756ea4869e6f873e4544bfd0ff3471)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Soap Base')]]], [[ChromeDriver: chrome on windows (c2756ea4869e6f873e4544bfd0ff3471)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Soap Base')]]], [[ChromeDriver: chrome on windows (c2756ea4869e6f873e4544bfd0ff3471)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Soap Base')]]], [[ChromeDriver: chrome on windows (c2756ea4869e6f873e4544bfd0ff3471)] -> xpath: //div[@data-component-type='s-search-result'][.//h2//span[contains(text(),'Soap Base')]]]]
+Products size:14
+Product detailsPreviously viewed
+Sponsored
+Soap Mould with Ultra Clear Transparent Glycerin Soap Base 1000g | DIY Soap Making Kit
+4.5
+(14)
+50+ bought in past month
+₹299
+M.R.P:
+₹599 (50% off)
+Save 2% with coupon
+FREE delivery Tue, 23 Jun
+Add to cart
+Parent window ID73B01E8821BD2B4F3A7A4F4D0C7B08C0
+Product detailsPreviously viewed
+MPR4 Silicone Soap Mold | Multicolor 6 Cavity Rectangle,Oval Shape Soap Moulds for Soap Making | Soap Making Kit | Soap Base Mould for Soap Bar, Resin, Chocolate, Cheesecakes (Multicolor - PK1)
+4.1
+(177)
+500+ bought in past month
+₹150
+M.R.P:
+₹599 (75% off)
+Up to 5% back with Amazon Pay I...
+FREE delivery Wed, 24 Jun
+Add to cart
+Parent window ID73B01E8821BD2B4F3A7A4F4D0C7B08C0
+  And User click on Add to cart button of the product titled "Soap Base".                  # stepDefinitions.AddCartSteps.AddCart(java.lang.String)
+Cart count: 2
+  Then examine the cart.                                                                   # stepDefinitions.AddCartSteps.CInfo()
+2
+After delete, cart count: 1
+After delete, cart count: 0
+  And delete all added products.                                                           # stepDefinitions.AddCartSteps.cDelete()
+  And capture the Screenshot                                                               # stepDefinitions.Screenshot.takeScreenshot()
+]]></system-out>
+    <system-err><![CDATA[Jun 17, 2026 6:30:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page verification.&quot;, &quot;Amazon Home page&quot;](5)" classname="runners.TestRunner" time="38.124">
+    <system-out><![CDATA[
+Scenario: Home page verification.                     # src/test/resources/features/Home.feature:7
+  Given User is On Amazon login page.                 # stepDefinitions.LoginSteps.UseronLoginpage()
+  When user enters a valid user email and pwd.        # stepDefinitions.LoginSteps.validemail()
+  Then click on login button.                         # stepDefinitions.LoginSteps.clkLogin()
+  Given User is On Amazon home after succesful login. # stepDefinitions.HomePageSteps.homePage()
+  When User notice on the top left corner.            # stepDefinitions.HomePageSteps.LogoAtCorner()
+Logo is Present
+  Then amazon logo is visible.                        # stepDefinitions.HomePageSteps.LogoVisible()
+  When User notice the User profile.                  # stepDefinitions.HomePageSteps.UserProAtCorner()
+User profile is Present
+  Then User can see User Profile.                     # stepDefinitions.HomePageSteps.userInfoVisible()
+Hello, Alekhya
+Account & Lists
+  Then User can see Hello UserName.                   # stepDefinitions.HomePageSteps.userInfoTxtVisible()
+  And capture the Screenshot                          # stepDefinitions.Screenshot.takeScreenshot()
+]]></system-out>
+    <system-err><![CDATA[Jun 17, 2026 6:32:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Valid login.&quot;, &quot;Amazon login&quot;](6)" classname="runners.TestRunner" time="20.632">
+    <system-out><![CDATA[
+Scenario: Valid login.                         # src/test/resources/features/login.feature:2
+  Given User is On Amazon login page.          # stepDefinitions.LoginSteps.UseronLoginpage()
+  When user enters a valid user email and pwd. # stepDefinitions.LoginSteps.validemail()
+  Then click on login button.                  # stepDefinitions.LoginSteps.clkLogin()
+  And capture the Screenshot                   # stepDefinitions.Screenshot.takeScreenshot()
+]]></system-out>
+    <system-err><![CDATA[Jun 17, 2026 6:33:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+</testsuite>
