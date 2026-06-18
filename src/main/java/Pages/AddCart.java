@@ -172,9 +172,7 @@ public class AddCart{
 		int count = deletecount.size();
 		for(int i = 0; i < count; i++) {
 			try {
-			List<WebElement> freshButtons = wait.until(
-			        ExpectedConditions.presenceOfAllElementsLocatedBy(deleTe));
-			freshButtons.get(i).click(); 
+			deletecount.get(i).click(); 
 			System.out.println("After delete, cart count: " +
 			        wait.until(ExpectedConditions.visibilityOfElementLocated(
 			            cartCount)).getText());}
